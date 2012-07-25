@@ -1,0 +1,22 @@
+{% extends "main.html" %}
+
+{% block content %}
+	{% for p in posts %}
+	{% set id = p.key().id() %}
+	{% set url = "/blog/"%}
+	<a href={{url}}{{id}}>
+	<div class="post-title">
+		{{p.subject}}
+		<div class="post-date">
+			{{p.created.strftime("%a, %b %d %Y")}}
+		</div>
+		<hr />
+		<br />
+	</div>
+	</a>
+	<div class="post-content">
+		<pre>{{p.content}}</pre>
+		<br /><br />
+	</div>
+	{% endfor %}
+{% endblock %}

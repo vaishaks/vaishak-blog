@@ -1,0 +1,92 @@
+
+body { 
+	margin: 0; 
+	padding: 0; 
+ 	text-align: center; 
+} 
+
+#wrapper { 
+ 	margin: 0 auto; 
+ 	padding: 0; 
+ 	width: 800px; 
+ 	text-align: left; 
+ 	word-wrap: break-word;
+} 
+
+h1 {
+	font-family: Tempus sans ITC;
+	font-size: 39px;
+	text-align: center;
+	padding: 15px;
+	color: #434a4b;
+	
+}
+
+h3 {
+	font-family: verdana;
+	font-size: 26px;
+}
+
+label {
+	font-family: Tahoma;
+	font-size: 19px;
+}
+
+input {
+	padding: 10px;
+	display: block;
+}
+
+input[type=text] {
+	width: 500px;
+}
+
+textarea {
+	width: 500px;
+	height: 300px;
+}
+
+input[type=submit] {
+	font-family: Verdana;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.error {
+	color: red;
+	font-size: 15px;
+}
+
+.post-title {
+	font-family: Copperplate Gothic Light;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.post-content {
+	font-family: Tahoma;
+	font-size: 16px;
+}
+
+.post-date {
+	float: right;
+	font-family: Courier;
+	font-size: 13px;
+	color: #999999;
+}
+
+#newpost {
+	float: right;
+	font-family: Verdana;
+	color: #999fff;
+}
+
+#E404 {
+	font-family: Georgia;
+	font-size: 155px;
+	color: #01e8e0;
+	text-align: center;
+}
